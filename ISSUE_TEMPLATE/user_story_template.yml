@@ -1,0 +1,75 @@
+name: 🧩 User Story
+description: Create a new User Story for the project platform
+title: "User Story: [Feature name]"
+labels: ["user story", "sprint"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🧩 User Story Template
+        Please fill in the following fields clearly.
+
+  - type: input
+    id: role
+    attributes:
+      label: As a (user role)
+      description: Example — As a registered user
+      placeholder: e.g., Project Manager
+
+  - type: input
+    id: goal
+    attributes:
+      label: I want to (goal/action)
+      description: What do you want to achieve?
+      placeholder: e.g., Create and manage tasks in a board
+
+  - type: input
+    id: reason
+    attributes:
+      label: So that I can (benefit)
+      description: Why is this feature important?
+      placeholder: e.g., Organize my work and track progress
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: ✅ Acceptance Criteria
+      description: List the clear, testable conditions for completion.
+      placeholder: |
+        - User can create a task
+        - Task status can be changed
+        - Changes are saved automatically
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: ⚙️ Technical Tasks
+      description: What are the main implementation steps?
+      placeholder: |
+        - Create model
+        - Build API endpoints
+        - Design frontend UI
+
+  - type: textarea
+    id: tests
+    attributes:
+      label:  Test Scenarios
+      description: Describe how to verify that this story works.
+      placeholder: |
+        - Test user login with valid credentials
+        - Verify error message for invalid input
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 🚦 Priority
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: input
+    id: sprint
+    attributes:
+      label: 🕓 Sprint
+      placeholder: e.g., Sprint 1
