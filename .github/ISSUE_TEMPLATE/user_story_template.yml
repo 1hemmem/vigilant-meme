@@ -1,7 +1,6 @@
 name: User Story
 description: Create a new User Story for the project platform
 title: "As a ___ , I want to ___ so that I can ___ ."
-"
 labels: ["user story"]
 body:
   - type: markdown
@@ -50,9 +49,6 @@ body:
         - Create model
         - Build API endpoints
         - Design frontend UI
-
-
-
   - type: dropdown
     id: priority
     attributes:
