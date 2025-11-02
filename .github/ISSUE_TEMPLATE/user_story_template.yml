@@ -1,12 +1,13 @@
-name: 🧩 User Story
+name: User Story
 description: Create a new User Story for the project platform
-title: "User Story: [Feature name]"
-labels: ["user story", "sprint"]
+title: "As a ___ , I want to ___ so that I can ___ ."
+"
+labels: ["user story"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 🧩 User Story Template
+        ##  User Story Template
         Please fill in the following fields clearly.
 
   - type: input
@@ -50,14 +51,7 @@ body:
         - Build API endpoints
         - Design frontend UI
 
-  - type: textarea
-    id: tests
-    attributes:
-      label:  Test Scenarios
-      description: Describe how to verify that this story works.
-      placeholder: |
-        - Test user login with valid credentials
-        - Verify error message for invalid input
+
 
   - type: dropdown
     id: priority
